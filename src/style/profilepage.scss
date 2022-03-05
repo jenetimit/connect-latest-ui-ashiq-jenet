@@ -1,0 +1,17 @@
+@import './main.scss';
+
+.margintop-27
+{
+    // margin-top: 27.2rem;
+    padding-top: 5rem;
+}
+
+
+@media only screen and (min-width: 1400px) {
+    .margintop-27
+    {
+        margin-top: 27.2rem;
+
+    }
+
+}

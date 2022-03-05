@@ -1,0 +1,67 @@
+@import './main.scss';
+
+.view-msg
+{
+    background-color: $bgPrimary;
+}
+.text
+{
+    color: $bgPrimary;
+    border-radius: 30px;
+    // background-color: $bgPrimary;
+}
+
+.table-title
+{
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    cursor: pointer;
+    // color: red;
+}
+
+.table-icons
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.p1pkg
+{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+   
+}
+
+.p1pkg-heading
+{
+    color: blue;
+}
+
+.col-gap
+{
+    column-gap: 100rem;
+    column-count: 3;
+}
+
+.mr-left
+{
+    margin-left: 3rem;
+}
+
+.list-pkg
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.list-pkg-heading
+{
+    font-weight: 500;
+}

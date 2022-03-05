@@ -1,0 +1,318 @@
+@import './main.scss';
+
+
+.button-text
+{
+    border-radius: 20px;
+    border: 3px solid #F1C40F;
+    background-color: transparent;
+    color: $primary_color;
+    // padding:5px 10px;
+    font-weight: 500;
+}
+.navbar
+{
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    
+}
+
+.menu-nav
+{
+    color: #fff;
+    font-size: 3rem;
+    
+}
+
+.menu-btn
+{
+    color: $primary_color;
+    font-size: 1.5rem;
+    border: none;
+}
+.menu-btn:hover
+{
+    color: $primary_color;
+    font-size: 1.5rem;
+    // border-color: $primary_color;
+}
+
+.profile_div
+{
+    background-color: aqua;
+    width: 20%;
+    height: 100vh;
+    z-index: 1;
+    float: right;
+}
+
+
+// home - content 
+
+.headerSection
+{
+    
+}
+
+.margin-25vh
+{
+    margin-top:25vh;
+}
+
+.header-title
+{
+    // position: absolute;
+    // margin-top: 20px;
+    display: flex;
+    font-size: 4rem;
+    // font-family: system-ui;
+    // /* right: 2px; */
+    // z-index: 1;
+    text-align: right;
+    // z-index: 1;
+    // right: 3%;
+    align-items: center;
+    justify-content: end;
+
+}
+
+
+
+.header-aboutus
+{
+    color: $primary_color;
+    font-size: 2rem;
+    margin-top: -5rem;
+}
+
+.aboutIcon
+{
+    margin-top: -2rem;
+    position: absolute;
+    color: $primary_color;
+    font-size: 3rem;
+    // margin-left: -9rem;
+}
+
+
+@media screen and (max-width: 768px) {
+    .aboutIcon
+    {
+        
+        // margin-right: 0rem;
+        // right: 13rem;
+        margin-top: -1rem;
+        position: absolute;
+        color: $primary_color;
+        font-size: 3rem;
+        // visibility: hidden;
+    }
+
+    .header-aboutus
+    {
+        
+        color: $primary_color;
+        font-size: 2.5rem;
+        margin-top: -5rem;
+    }
+
+  }
+
+
+
+
+  ///css done by ashique
+
+//   .main-banner{
+//     width: 100%;
+//     height: 100vh;
+//     display: flex;
+//     justify-content: space-evenly;
+//     background-color: #000914;
+// }
+
+// .right-div{
+//     display: flex;
+//     align-items: center;
+//     width: 60%;
+//     text-align: end;
+// }
+
+// .left-div img{
+//     height: 80%;
+//     margin-top: 20%;
+// }
+
+// .right-div h1{
+//     margin: 0;
+//     padding: 0;
+//     color: white;
+//     font-size: 6vw;
+// }
+
+
+
+.main-banner{
+    width: 100%;
+ 
+    display: flex;
+    justify-content: space-evenly;
+    // background-color: black;
+}
+
+
+.left-div img{
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    height: 40vw;
+}
+
+@media (max-width:700px){
+    .left-div img{
+        margin-top: 5vw;
+        height: 60vw;
+        margin-left: 5vw;
+    }
+}
+
+.right-div{
+    padding-top: 10vw;
+    padding-right: 2vw;
+    width: 60%;
+    text-align: end;
+}
+
+@media (max-width:700px){
+    .right-div{
+        padding-top: 20vw;
+    }
+}
+
+
+.right-div h1{
+    color: white;
+    font-size: 6vw;
+    text-align: right;
+}
+
+// /* svg animation  */
+.logo text:nth-child(1){
+    stroke-dasharray: 1200;
+    stroke-dashoffset: 1200;
+    animation: line-anim 10s infinite;
+}
+
+@keyframes line-anim {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+#church{
+    margin: 0;
+    padding: 0;
+    /* color: white; */
+    font-size: 6vw;
+    position: relative;
+    color: #0e3742;
+    text-transform: uppercase;
+    outline: none;
+    animation: text-animate-church 5s linear infinite;
+}
+
+#ministry{
+    margin: 0;
+    padding: 0;
+    margin-left: -50%;
+    /* color: white; */
+    font-size: 6vw;
+    position: relative;
+    color: #0e3742;
+    text-transform: uppercase;
+    outline: none;
+    animation: text-animate-ministry 5s linear infinite;
+}
+.Connecting_Your{
+    transform: translate(3 220);
+    fill: none;
+    stroke: #fff;
+    stroke-width: 3;
+    font-size: 207;
+    // font-family: "Poppins-Bold, Sans-serif";
+    font-weight: 700;
+
+}
+@keyframes text-animate-ministry{
+
+    0%,5%,10%,15%,20%,25%
+    {
+        color: transparent;
+        visibility: hidden;
+    } 
+    26%,30%,35%,40%,45%,49%
+    {
+        text-shadow: none;
+        color: #fff;
+        text-shadow: 0 0 10px #03bcf4,
+        0 0 20px #03bcf4,
+        0 0 40px #03bcf4,
+        0 0 80px #03bcf4,
+        0 0 160px #03bcf4;
+        visibility: visible;
+    }
+    50%,55%,60%,65%,70%,75%
+    {
+        color: transparent;
+        visibility: hidden;
+    }
+    76%,80%,85%,90%,95%,100%
+    {
+        text-shadow: none;
+        color: #fff;
+        text-shadow: 0 0 10px #03bcf4,
+        0 0 20px #03bcf4,
+        0 0 40px #03bcf4,
+        0 0 80px #03bcf4,
+        0 0 160px #03bcf4;
+        visibility: visible;
+    }
+
+}
+
+@keyframes text-animate-church{
+    0%,5%,10%,15%,20%,25%
+    {
+        color: #0e3742;
+        text-shadow: none;
+        color: #fff;
+        text-shadow: 0 0 10px #03bcf4,
+        0 0 20px #03bcf4,
+        0 0 40px #03bcf4,
+        0 0 80px #03bcf4,
+        0 0 160px #03bcf4;
+        visibility: visible;
+    } 
+    26%,30%,35%,40%,45%,49%
+    {
+        color: transparent;
+        visibility: hidden;
+    }
+    50%,55%,60%,65%,70%,75%
+    {
+        text-shadow: none;
+        color: #fff;
+        text-shadow: 0 0 10px #03bcf4,
+        0 0 20px #03bcf4,
+        0 0 40px #03bcf4,
+        0 0 80px #03bcf4,
+        0 0 160px #03bcf4; 
+        visibility: visible;
+    }
+    76%,80%,85%,90%,95%,100%
+    {
+        color: transparent;
+        visibility: hidden;
+    }
+}
+

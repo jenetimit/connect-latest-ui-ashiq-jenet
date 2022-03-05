@@ -1,0 +1,45 @@
+
+@import './main.scss';
+
+.go-button
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-bottom: 8rem; */
+    position: relative;
+    /* position: absolute; */
+    /* bottom: 0; */
+    bottom: 0;
+    top: 22rem;
+}
+
+// .buttontext
+// {
+//     border-radius: 20px;
+//     border: 3px solid #F1C40F;
+//     background-color: transparent;
+//     color: $primary_color;
+//     padding: 10px;
+//     font-weight: 500;
+//     margin: 20px;
+// }
+// .buttontext:hover{
+//     color: #F1C40F;
+// }
+
+.pkg-button
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-bottom: 8rem; */
+    position: relative;
+    /* position: absolute; */
+    /* bottom: 0; */
+    bottom: 0;
+    // top: 22rem;
+    float: left;
+    margin: 10px;
+}
+

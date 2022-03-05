@@ -1,0 +1,10 @@
+@import './main.scss';
+
+.login-box
+{
+    background-color: $bgPrimary;
+    border-block-color: inherit;
+    border-color: $secondary_color;
+    color: $primary_color;
+    padding: 10px;
+}

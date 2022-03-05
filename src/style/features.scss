@@ -1,0 +1,637 @@
+
+@import './main.scss';
+/* featurelist - start  */
+
+.feature-list
+{
+    margin-top: 10rem;
+    padding-bottom: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#vision
+{
+    color: $primary_color;
+    font-size: 4rem;
+    font-weight: 500;
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+    transform: matrix(-1, 0, 0, -1, 0, 0);
+    margin-top: -34rem;
+    position: absolute;
+    height: 400px;
+}
+
+.mission
+{
+    // color: $primary_color;
+    // font-size: 4rem;
+    // font-weight: 500;
+    // margin-top: -21rem;
+    // position: absolute;
+    // margin-left: 14rem;
+
+
+
+    color: #fff;
+    font-size: 4rem;
+    font-weight: 500;
+    position: absolute;
+    margin-right: -1rem;
+    margin-top: -10rem;
+    margin-left: -6rem
+
+}
+
+
+.statement
+{
+  color: #fff;
+  font-size: 4rem;
+  font-weight: 500;
+  margin-top: -20rem;
+  position: absolute;
+  margin-left: -8rem;
+  
+}
+
+
+.values
+{
+    color: $primary_color;
+    font-size: 4rem;
+    font-weight: 500;
+    writing-mode: vertical-lr;
+    /* text-orientation: mixed; */
+    margin-top: -15rem;
+    position: absolute;
+    margin-left: 15rem;
+    height: 500px;
+}
+
+
+#plusIcon1
+{
+    position: absolute;
+    // margin-top: -25rem;
+    // margin-left: 11rem;
+    color: $primary_color;
+    font-size: 1.5rem;
+
+ 
+    margin-top: -4rem;
+    margin-left: -11rem;
+  
+}
+
+#rightIcon1
+{
+    position: absolute;
+    // margin-top: -24.8rem;
+    // margin-left: 12rem;
+    margin-top: -3.8rem;
+    margin-left: -9.8rem;
+    color: $primary_color;
+    font-size: 1.1rem;
+}
+
+#descri_icon
+{
+    font-size: 1rem;
+    color: $primary_color;
+    position: absolute;
+    margin-top: -26rem;
+    margin-left: 14rem;
+   
+}
+
+
+.plusIcon2
+{
+    // position: absolute;
+    // margin-top: 6rem;
+    // margin-left: 0rem;
+    // color: $primary_color;
+    // font-size: 1.5rem;
+
+
+    position: absolute;
+    margin-top: 18rem;
+    margin-left: -14rem;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.rightIcon2
+{
+    // position: absolute;
+    // margin-top: 6.2rem;
+    // margin-left: 1rem;
+    // color: $primary_color;
+    // font-size: 1.1rem;
+
+    position: absolute;
+    margin-top: 18.2rem;
+    margin-left: -14.6rem;
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+.descri_icon2
+{
+    // font-size: 1rem;
+    // color: $primary_color;
+    // position: absolute;
+    // margin-top: -16rem;
+    // margin-left: 25rem;
+
+
+    font-size: 1rem;
+    color: #fff;
+    position: absolute;
+    margin-top: -4rem;
+    margin-left: -5.5rem;
+}
+
+
+.plusIcon3
+{
+    position: absolute;
+    margin-top: -12rem;
+    margin-left: 12rem;
+    color: $primary_color;
+    font-size: 1.5rem;
+}
+
+.rightIcon3
+{
+    position: absolute;
+    margin-top: -11.8rem;
+    margin-left: 13rem;
+    color: $primary_color;
+    font-size: 1.1rem;
+}
+
+.descri_icon3
+{
+    font-size: 1rem;
+    color: $primary_color;
+    position: absolute;
+    margin-top: -14rem;
+    margin-left: 16rem;
+   
+}
+
+.plusIcon4
+{
+    position: absolute;
+    margin-top: -5rem;
+    margin-left: 13rem;
+    color: $primary_color;
+    font-size: 1.5rem;
+}
+
+.rightIcon4
+{
+    position: absolute;
+    margin-top: -4.8rem;
+    margin-left: 12rem;
+    color: $primary_color;
+    font-size: 1.1rem;
+}
+
+.descri_icon4
+{
+    font-size: 1rem;
+    color: $primary_color;
+    position: absolute;
+    margin-top: -5rem;
+    margin-left: -4rem;
+}
+
+.div1{
+
+    margin-left: 0rem;
+    // margin-top: -10rem;
+
+}
+
+.div2{
+  margin-right: 0rem;
+  margin-left: -3rem;
+  margin-top: -10rem;
+}
+
+
+.div3{
+
+  margin-left: 0rem;
+    margin-top: 2rem;
+    margin-right: 0rem;
+
+
+}
+
+.div4{
+
+  margin-left: -3rem;
+    margin-top: -6rem;
+    margin-right: 0rem;
+
+    
+}
+/* featurelist - start  */
+
+
+
+  .why-connect
+  {
+    //   margin-top: 30rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      margin-top: 25rem;
+
+  }
+
+  .questionIcon
+  {
+    color: #fff;
+    font-size: 4 rem;
+    font-size: 3rem;
+    margin-top: -131rem;
+    position: absolute;
+    margin-left: -22rem;
+  }
+
+  .whyconnect-text
+  {
+    color: $primary_color;
+    font-size: 3rem;
+    font-weight: 500;
+    /* padding-top: 5rem; */
+    margin-top: -130rem;
+    // margin-left: -23rem;
+   
+    position: absolute;
+}
+
+
+.bar {
+    list-style: none;
+    // width: 800px;
+    margin-top: 5rem;
+  }
+
+
+  .bar li{
+      font-size: 2rem;
+    //   position: absolute;
+  }
+/* why connect - end  */
+
+
+.feature_align
+{
+  // margin-left: 10rem;
+  margin-left: 0;
+  margin-right: 0;
+  
+}
+
+.img
+{
+  background-image: url('../assets/images/Group 148.png');
+  object-fit: cover;
+}
+
+@media only screen and (min-width: 768px) {
+
+    // large screen 
+
+/* why connect - start  */
+
+.plusIcon1
+  {
+    margin-top: -4rem;
+    margin-left: -11rem;
+  }
+
+.bar {
+    list-style: none;
+    width: 800px;
+    margin-top: -11rem;
+  }
+  .bar >li {
+    position: relative;
+    font-size: 1rem;
+    color: $primary_color;
+  }
+  .bar>li:before {
+    content: '\25CF';
+    margin-right: 10px;
+    font-size: 2rem;
+  }
+  .bar>li:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: '';
+    border-left: 2px solid $primary_color;
+    margin-left: 5px;
+    height: 100%;
+  }
+  .bar >li:first-of-type:after {
+    top: 50%;
+  }
+  .bar >li:last-of-type:after {
+    top: -50%;
+  }
+
+
+
+  .why-connect
+  {
+      margin-top: 50rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+  }
+
+
+  .whyconnect-text
+  {
+    color: $primary_color;
+    font-size: 3rem;
+    font-weight: 500;
+    padding-top: 5rem; 
+    margin-top: -57rem;
+    margin-left: -23rem;
+    position: absolute;
+}
+
+
+.questionIcon
+  {
+    color: $primary_color;
+    font-size: 4rem;
+    font-size: 3rem;
+    margin-left: -45.5rem;
+    margin-top: -53rem;
+    position: absolute;
+  }
+
+
+  .plusIcon2
+  {
+    margin-top: 15rem;
+    margin-left: -12rem;
+  }
+
+  .rightIcon2
+  {
+    margin-top: 15.2rem;
+    margin-left: -12.6rem;
+  }
+
+  .plusIcon4
+  {
+    margin-top: 17rem;
+    margin-left: -8rem;
+  }
+
+  .rightIcon4{
+    // margin-top: 16.8rem;
+    // margin-left: -8.8rem;
+  }
+
+  
+
+  .div3{
+    margin-left: 10rem;
+    margin-top: -8rem;
+  }
+
+  .div4 {
+    margin-left: 25rem;
+    margin-top: -17rem;
+  }
+
+  .div2
+  {
+    margin-left: 11rem;
+  }
+
+  .section_1
+  {
+    margin-top: 37rem;
+    position: absolute;
+    margin-left: 11rem;
+  }
+
+  .section_2
+  {
+    position: absolute;
+    margin-top: 37rem;
+    margin-left: 11rem;
+  }
+
+  // .feature_align
+  // {
+  //   margin-left: 35rem;
+  // }
+
+  .statement
+  {
+    margin-left: 9rem;
+    width: fit-content;
+  }
+  
+  .mission
+  {
+    margin-top: -13rem;
+  }
+
+  .descri_icon2
+  {
+    margin-top: -7rem;
+  }
+
+  .plusIcon1
+  {
+    margin-top: -4rem;
+    margin-left: -11rem;
+  }
+}
+
+
+@media only screen and (min-width: 1400px) {
+
+  .plusIcon4
+  {
+    margin-top: 16.5rem;
+    margin-left: -8rem;
+  }
+
+  .rightIcon4{
+    margin-top: 16.8rem;
+    margin-left: -8.8rem;
+  }
+
+  .plusIcon3
+  {
+    margin-top: 8rem;
+    margin-left: -9rem
+  }
+  
+  .rightIcon3
+  {
+    margin-top: 8.2rem;
+    margin-left: -8rem;
+  }
+
+  .plusIcon1
+  {
+    margin-top: -25rem;
+    margin-left: -11rem;
+  }
+}
+
+
+@media only screen   
+and (min-width : 320px)   
+and (max-width : 480px)   
+{
+  .plusIcon4
+  {
+    margin-top: -4.5rem;
+    margin-left: 13rem;
+  }
+
+  .rightIcon4{
+    // margin-top: 16.8rem;
+    // margin-left: -8.8rem;
+  }
+
+  .plusIcon1
+  {
+    margin-top: -25rem;
+    margin-left: -11rem;
+  }
+}
+
+
+@media only screen   
+and (min-device-width : 360px)   
+and (max-device-width : 640px)  
+{
+
+  .div1{
+    margin-left: -7rem;
+  }
+
+  .div3{
+    margin-left: -7rem;
+  }
+
+  .div2{
+    margin-right: 0rem;
+    margin-left: -9rem;
+    margin-top: -8rem;
+  }
+
+  .div4{
+    margin-left: -10rem;
+    margin-top: -2rem;
+    margin-right: 0rem;
+  }
+
+  .plusIcon4
+  {
+    margin-top: 16.5rem;
+    margin-left: -8rem;
+  }
+
+  .rightIcon4
+  {
+    margin-top: 16.8rem;
+    margin-left: -9rem;
+  }
+
+  .plusIcon1
+  {
+    margin-top: -4rem;
+    margin-left: -11rem;
+  }
+}
+
+
+
+
+//css done by ashique
+
+/* ==================================================================== start why connect ==================================================================== */
+.why-connect-main-div{
+  background-color: black;
+  padding: 5%;
+}
+.why-connect-main-div h1{
+  color: white;
+  font-size: 5vw;
+  font-weight: 100;
+  margin: 0;
+  padding: 0;
+  padding-top: 5%;
+  margin-bottom: 5%;
+}
+.why-connect-main-div h2{
+  color: #0e3742;
+  outline: none;
+  cursor: pointer;
+  font-size: 3vw;
+  text-align: end;
+  font-weight: 100;
+}
+
+.why-connect-main-div h2:hover{
+  animation: animate-play1 2s forwards;
+}
+
+@media (max-width:700px){
+  .why-connect-main-div h2{
+      font-size: 15px;
+  }
+}
+
+.why-connect-main-div p{
+  color: white;
+  font-size: 1.5vw;
+}
+
+@media (max-width:700px){
+  .why-connect-main-div p{
+      font-size: 11px;
+  }
+}
+
+.why-connect-main-div li{
+  color: white;
+  font-size: 1.5vw;
+}
+
+@media (max-width:700px){
+  .why-connect-main-div li{
+      font-size: 11px;
+  }
+}
+
+
+.space-div{
+  height: 25vh;
+}
+

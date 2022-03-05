@@ -1,0 +1,161 @@
+
+.statistics-main-div{
+    background-color: black;
+    padding: 5%;
+}
+
+.statistics-main-div .top-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.statistics-main-div h2{
+    color: white;
+    font-weight: 100;
+    font-size: 4vw;
+    padding: 0%;
+    margin: 0%;
+    margin-bottom: 5%;
+}
+
+.statistics-main-div h4{
+    color: white;
+    font-weight: 100;
+    font-size: 2vw;
+    padding: 0%;
+    margin: 0%;
+}
+
+@media (max-width: 700px){
+    .statistics-main-div h4{
+        font-size: 15px;
+    }
+}
+
+.statistics-main-div p{
+    color: white;
+    font-size: 1.5vw;
+    margin-bottom: 2vw;
+}
+
+@media (max-width: 700px){
+    .statistics-main-div p{
+        font-size: 12px;
+    }
+}
+
+
+.statistics-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width:700px){
+    .statistics-row{
+        flex-direction: column;
+    }
+     
+}
+
+.line-chrt-div{
+    flex: 1;
+}
+
+.svg-diagram-div{
+    flex: 1;
+}
+
+.svg-diagram-div{
+    flex: 1;
+    padding: 2vw;
+}
+
+.line-chart{
+    padding: 2vw;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+    border-radius: 15px;
+    background: rgba(255, 255, 225, 0.1);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
+
+}
+
+@media(max-width:700px){
+    .line-chart{
+        width: 80vw;
+        height: 30vw;
+        margin-top: 5vw;
+        margin-bottom: 5vw;
+        padding-top: 5vw;
+    } 
+}
+
+
+
+.line-wrap {
+    position: relative;
+    text-align: left;
+}
+
+.line-progess-bar{
+    width: 0%;
+    height: 20px;
+    background-color: blue;
+    padding: 2px;
+    border-radius: 10px;
+    opacity: 0;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+}
+
+.statistics-row.anim .line-progess-bar{
+    animation: grow-bar 3s ease-in-out normal forwards;
+}
+
+@keyframes grow-bar{
+    0%{
+        width: 0%;
+        opacity: 0;
+    }
+    100%{
+        width: 90%;
+        opacity: 1;
+    }
+}
+
+.line-progess-bar .div-two{
+    width: 60%;
+    height: 100%;
+    padding: 2px;
+    background-color: greenyellow;
+    border-radius: 10px;
+}
+.line-progess-bar .div-three{
+    width: 60%;
+    height: 100%;
+    background-color: skyblue;
+    border-radius: 10px;
+
+}
+
+.line-chart .line-text{
+    color: white;
+    font-size: 2vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+.line-chart .line-text h5{
+    padding: 0;
+    margin: 0;
+}
+
+@media (max-width:700px){
+    .line-chart .line-text h5{
+        font-size: 12px;
+    } 
+}
+
+
+
